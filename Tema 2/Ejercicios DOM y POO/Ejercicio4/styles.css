@@ -1,0 +1,26 @@
+img {
+    position: absolute;
+}
+
+.reino {
+    background-color: rgba(118, 191, 255, 0.822);
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+}
+
+#Gondor {
+    top: 61%;
+    right: 63%;
+}
+
+#Rohan {
+    top: 47%;
+    right: 63%;
+}
+
+#Mordor {
+    top: 61%;
+    right: 50%;
+}
