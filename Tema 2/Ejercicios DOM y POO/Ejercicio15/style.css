@@ -1,0 +1,14 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
