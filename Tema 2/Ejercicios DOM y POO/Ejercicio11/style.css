@@ -1,0 +1,16 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+#superman {
+    height: 1000px;
+    width: 1000px;
+    scale: 50%;
+    background-image: url("superman.jpg");
+    position: absolute;
+    left: 39%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: bottom 1s;
+}
