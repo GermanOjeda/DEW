@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/logreg.css">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./assets/images/pokeball.png" type="image/x-icon">
+</head>
+<body>
+    <header style="text-align: center;">
+        <img src="./assets/images/logo.png" alt="logo">
+    </header>
+    <main>
+        <form action="" id="login">
+            <h1 style="text-align: center;">Login</h1>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="login-username" required><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="login-password" required><br>
+            <input type="button" value="Login" id="login-button">
+        </form>
+        
+        <form action="" id="signup">
+            <h1 style="text-align: center;">Sign Up</h1>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="signup-username" required><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="signup-password" required><br>
+            <label for="r-password">Repeat password: </label>
+            <input type="password" name="r-password" id="signup-r-password" required><br>
+            <input type="button" value="Sign Up" id="signup-button">
+        </form>
+    </main>
+    <script type="module" src="./src/logreg.js"></script>
+</body>
+</html>
